@@ -1,7 +1,6 @@
-total=0;
+total=0
 
-for(var i=2;i<process.argv.length;i++){
+for (var i = 2; i < process.argv.length; i++) {
 	total+=Number(process.argv[i])
-
 }
 console.log(total)
